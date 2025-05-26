@@ -1,0 +1,13 @@
+! sub ideas = idea
+! sub no se que hacer = no tengo idea
+
++ [*] no tengo idea [*]
+- Te puedo brindar las siguientes sugerencias. {@listadosdepreguntas}
+
++ *
+- Tuve problemas al entender, sin embargo te puedo brindar un listado de preguntas frecuentes:  {@listadosdepreguntas}
+
++ [*] boton menu inicio [*]
+- Para volver al menú de inicio: <button onclick="enviarMensaje('brindar ayuda')">Menú inicio</button>
+
+

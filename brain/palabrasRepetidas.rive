@@ -1,0 +1,105 @@
+// Acá usaremos las palabras que se repiten en las preguntas
+// Y preguntamos al usuario cual desea usar
+! sub academica = academico
+! sub academicos = academico
+
+// **********************************************************************************************************************************
+// ***********************Buscamos preguntas con académico y académica***************************************************************
+// **********************************************************************************************************************************
++ [*] academico [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda <br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <br> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <br><button onclick="enviarMensaje('<input> volver')"> volver</button>
+- ¿Quiere saber de académico de?:<br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <br> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+// **********************************************************************************************************************************
++ [*] academico menu [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda    <br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- ¿Quiere saber de académico de?:<br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
+// **********************************************************************************************************************************
+
++ [*] academico volver [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda <br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- ¿Quiere saber de académico de?:<br> <ul>  <li> <button onclick="enviarMensaje('titulo academico')"> Título académico</button> </li> <br> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li><br><li> <button onclick="enviarMensaje('admisiones presencial')"> Oferta académica modalidad presencial</button> </li> <br> <li> <button onclick="enviarMensaje('admisiones virtual')"> Oferta académica modalidad virtual</button>  </li> </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
+// **********************************************************************************************************************************
+
+// **********************************************************************************************************************************
+// ***********************Buscamos preguntas con certificados***************************************************************
+// **********************************************************************************************************************************
++ [*] certificado menu [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda <br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- Te puedo dar bastante sugerencias con la búsqueda espero ser útil con la pregunta. <br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- ¿Quiere saber de certificado de?:<br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] certificado volver [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda <br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- Te puedo dar bastante sugerencias con la búsqueda espero ser útil con la pregunta. <br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- ¿Quiere saber de certificado de?:<br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] certificado [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda <br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- Te puedo dar bastante sugerencias con la búsqueda espero ser útil con la pregunta. <br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- ¿Quiere saber de certificado de?:<br>  <ul> <li> <button onclick="enviarMensaje('certificado academico')"> Certificado académico</button> </li> <br>  <li> <button onclick="enviarMensaje(' tramite certificado academico')"> Trámite certificado académico</button> </li></ul></ul> <br> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+
+// **********************************************************************************************************************************
+
+// **********************************************************************************************************************************
+// ***********************Buscamos preguntas con modalidad***************************************************************
+// ********************************************************************************************************************************** 
++ [*] modalidad [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda <br/> <ul> <li> <button onclick="enviarMensaje(' presencial a virtual')"> Transferencia interna modalidad presencial a virtual</button> </li><br/> <li> <button onclick="enviarMensaje(' admisiones presencial')"> Oferta académica modalidad presencial</button>  </li><br/><li> <button onclick="enviarMensaje(' admisiones virtual')"> Oferta académica modalidad virtual</button> </li> <br/> <li> <button onclick="enviarMensaje(' trabajo grado')"> Trabajo de grado</button> </li><br/>  </ul><button onclick="enviarMensaje('<input> volver')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <br/> <ul> <li> <button onclick="enviarMensaje(' presencial a virtual')"> Transferencia interna modalidad presencial a virtual</button> </li><br/> <li> <button onclick="enviarMensaje(' admisiones presencial')"> Oferta académica modalidad presencial</button>  </li><br/><li> <button onclick="enviarMensaje(' admisiones virtual')"> Oferta académica modalidad virtual</button> </li> <br/> <li> <button onclick="enviarMensaje(' trabajo grado')"> Trabajo de grado</button> </li><br/>  </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- ¿Quiere saber de modalidad de?:<br/> <ul> <li> <button onclick="enviarMensaje(' presencial a virtual')"> Transferencia interna modalidad presencial a virtual</button> </li><br/> <li> <button onclick="enviarMensaje(' admisiones presencial')"> Oferta académica modalidad presencial</button>  </li><br/><li> <button onclick="enviarMensaje(' admisiones virtual')"> Oferta académica modalidad virtual</button> </li> <br/> <li> <button onclick="enviarMensaje(' trabajo grado')"> Trabajo de grado</button> </li><br/>  </ul><button onclick="enviarMensaje('<input> volver')"> volver</button>
+
++ [*] modalidad menu [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li><li> Oferta académica modalidad virtual </li>   <li> Modalidad trabajos de grado </li>  </ul><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li><li> Oferta académica modalidad virtual </li>  <li> Modalidad trabajos de grado </li> </ul><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li><li> Oferta académica modalidad virtual </li> <li> Modalidad trabajos de grado </li> </ul><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] modalidad volver [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li><li> Oferta académica modalidad virtual </li>   <li> Modalidad trabajos de grado </li>  </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li><li> Oferta académica modalidad virtual </li>  <li> Modalidad trabajos de grado </li> </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li><li> Oferta académica modalidad virtual </li> <li> Modalidad trabajos de grado </li> </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
+// **********************************************************************************************************************************
+
+// **********************************************************************************************************************************
+// ***********************Buscamos preguntas con presencial***************************************************************
+// **********************************************************************************************************************************
+
++ [*] presencial [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>     </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>   </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>  </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+
++ [*] presencial menu [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>     </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>   </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>  </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] presencial volver [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>     </ul><button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>   </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad presencial </li>  </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
+// **********************************************************************************************************************************
+
+// **********************************************************************************************************************************
+// ***********************Buscamos preguntas con virtual***************************************************************
+// **********************************************************************************************************************************
++ [*] virtual [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>     </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>   </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>  </ul> <button onclick="enviarMensaje('<input> volver')"> volver</button>
+
++ [*] virtual menu [*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>     </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>   </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>  </ul> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] virtual volver[*]
+- Tengo almacenado bastante información con la pregunta, puedo ofrecer un listado para mejorar la búsqueda  <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>     </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- Te puedo dar varias sugerencias con tu búsqueda espero ser útil con la pregunta. <ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>   </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- ¿Quiere saber de modalidad de?:<ul> <li> Transferencia interna modalidad presencial a virtual </li> <li> Oferta académica modalidad virtual </li>  </ul> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+// **********************************************************************************************************************************

@@ -1,0 +1,24 @@
++ [*] directorio institucional bienvenida [*]
+- En este enlace puede consultar el directorio telefónico de las uts  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/directorio-institucional/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] directorio institucional [*]
+- En este enlace puede consultar el directorio telefónico de las uts  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/directorio-institucional/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] directorio institucional menu [*]
+- En este enlace puede consultar el directorio telefónico de las uts  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/directorio-institucional/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] directorio institucional volver [*]
+- En este enlace puede consultar el directorio telefónico de las uts  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/directorio-institucional/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>
+
+// ********* Formular PQR
++ [*] formular pqr bienvenida  [*]
+- Para formular su petición, queja, reclamo, sugerencia y felicitación dirigirse al enlace   👉 <a class="enlaceChat" href='https://pqr.uts.edu.co/solicitudes/nuevo' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] formular pqr [*]
+- Para formular su petición, queja, reclamo, sugerencia y felicitación dirigirse al enlace   👉 <a class="enlaceChat" href='https://pqr.uts.edu.co/solicitudes/nuevo' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] formular pqr menu [*]
+- Para formular su petición, queja, reclamo, sugerencia y felicitación dirigirse al enlace   👉 <a class="enlaceChat" href='https://pqr.uts.edu.co/solicitudes/nuevo' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] formular pqr volver [*]
+- Para formular su petición, queja, reclamo, sugerencia y felicitación dirigirse al enlace   👉 <a class="enlaceChat" href='https://pqr.uts.edu.co/solicitudes/nuevo' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>

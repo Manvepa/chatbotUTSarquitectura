@@ -1,0 +1,27 @@
++ [*] correo institucional bienvenida [*]
+- La solicitud de correo institucional debe realizarla al siguiente correo <strong> recursosinformaticos@correo.uts.edu.co </strong>  y/o <strong>  soporteestudiante@correo.uts.edu.co. </strong> <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button> 
+
++ [*] correo institucional [*]
+- La solicitud de correo institucional debe realizarla al siguiente correo <strong> recursosinformaticos@correo.uts.edu.co </strong>  y/o <strong>  soporteestudiante@correo.uts.edu.co. </strong> <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] correo institucional menu [*]
+- La solicitud de correo institucional debe realizarla al siguiente correo <strong> recursosinformaticos@correo.uts.edu.co </strong>  y/o <strong>  soporteestudiante@correo.uts.edu.co. </strong> <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] correo institucional volver [*]
+- La solicitud de correo institucional debe realizarla al siguiente correo <strong> recursosinformaticos@correo.uts.edu.co </strong>  y/o <strong>  soporteestudiante@correo.uts.edu.co. </strong> <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>
+
+! sub devoluciones = devolucion
+! sub devolución = devolucion
+
+// ******* DEVOLUCIONES **********
++ [*] devolucion bienvenida [*]
+- La solicitud de una devolución debe realizarla al siguiente correo <strong> devoluciones@correo.uts.edu.co </strong>  <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button> 
+
++ [*] devolucion [*]
+- La solicitud de una devolución debe realizarla al siguiente correo <strong> devoluciones@correo.uts.edu.co </strong>  <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] devolucion menu [*]
+- La solicitud de una devolución debe realizarla al siguiente correo <strong> devoluciones@correo.uts.edu.co </strong>  <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] devolucion volver [*]
+- La solicitud de una devolución debe realizarla al siguiente correo <strong> devoluciones@correo.uts.edu.co </strong>  <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>

@@ -1,0 +1,60 @@
+// Welcome.rive
+
+//Salto de línea
+! local concat = newline
+
+// Sinónimo para persona que tiene preguntas
+! sub puede ayudar = brindar ayuda
+! sub puedes ayudar = brindar ayuda
+! sub resolver una pregunta = brindar ayuda
+! sub resolver una duda = brindar ayuda
+! sub necesito una ayuda = brindar ayuda
+! sub brindar una ayuda = brindar ayuda
+! sub tengo una pregunta = brindar ayuda
+! sub tengo una duda = brindar ayuda
+! sub resolver una pregunta = brindar ayuda
+
+// Remplazamos cualquier sinónimo de ayuda para que sea ayuda
+// Y el bot entienda
+! sub auxilio = ayuda
+! sub auxilios = ayuda
+! sub apoyo = ayuda
+! sub apoyos = ayuda
+! sub socorro = ayuda
+! sub socorros = ayuda
+! sub amparo = ayuda
+! sub amparos = ayuda
+! sub pregunta = ayuda
+! sub preguntas = ayuda
+! sub dudas = ayuda
+! sub duda = ayuda
+
+//Remplazamos sinponimos de Hola para que sea hola
+// Y el bot entienda
+! sub buenos dias = hola
+! sub buen dia = hola
+! sub buenas tardes = hola
+! sub buena tarde = hola
+! sub buenas noches = hola
+! sub buena noche = hola
+
++ [*] brindar ayuda [*]
+- Por supuesto te puedo brindar ayuda, te proporcionaré un listado de preguntas frecuentes y puedes decirme en la que te desee que te ayude. <br/> {@listadosdepreguntas}
+- Claro!, si no sabes como redactar tu pregunta te puedo brindar algunas opciones para un mejor servicio. <br/>{@listadosdepreguntas}
+
+
++ [*] ayuda [*]
+- Por su puesto te puedo ayudar, ¿Tienes alguna pregunta específica o te puedo brindar alguna?
+- Sí claro, dime en que te puedo ayudar {@brindar ayuda}
+
++ [*] hola [*]
+- Hola, ¿Cómo puedo ayudarte?
+- Hola, Soy <strong> Majo Bot. </strong> Mucho gusto estoy aquí para resolver tus dudas
+
+
++ listadosdepreguntas
+- <br><li><button onclick="enviarMensaje('Reestablecimiento contraseña academusoft')">Reestablecimiento contraseña academusoft</button></li><br /><li><button onclick="enviarMensaje('correo institucional')"> Correo institucional</button></li><br /> <li><button onclick="enviarMensaje('tramite certificados academicos bienvenida')">Trámite de Certificados Académicos</button></li><br /> <li><button onclick="enviarMensaje('Inscripcion bienvenida')">Inscripción</button></li><br /> <li><button onclick="enviarMensaje('readmision')">Readmisión</button></li><br> <li><button onclick="enviarMensaje('politica de gratuidad')">Política de gratuidad / matricula cero</button></li><br><li><button onclick="enviarMensaje('Admisiones bienvenida')">Programa académico</button></li><br /> <li><button onclick="enviarMensaje('transferencia bienvenida')">Transferencias</button></li><br /> <li><button onclick="enviarMensaje('Intercambio academico')">Intercambio academico en la UTS</button></li><br /> <li><button onclick="enviarMensaje('Requisitos para estudiar UTS')">Requisitos para estudiar en la UTS</button></li><br /> <li><button onclick="enviarMensaje('descarga el recibo de la liquidacion de la matricula')">Descarga el recibo de la liquidacion de la matricula</button></li><br /> <li><button onclick="enviarMensaje('poliza estudiantil')">Poliza estudiantil</button></li><br> <li><button onclick="enviarMensaje('Bolsa de empleo bienvenida')">Bolsa de empleo</button></li><br> <li><button onclick="enviarMensaje('devolucion')">Devoluciones</button></li><br /> <li><button onclick="enviarMensaje('directorio institucional')">Directorio institucional</button></li><br /> <li><button onclick="enviarMensaje('formular pqr')">Formular PQR</button></li><br />
+ 
+
++ agregarbasedatos
+- Si tienes más preguntas o necesitas ayuda en el futuro, no dudes en preguntar. ¡Feliz de poder ayudar!

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot1</title>
+    <link rel="stylesheet" href="/css/chat.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <div class="profile-header">
+                <img src="/img/gifMedioCuerpo3.png" class="imgGif" alt="avatarBot">
+                <h3 class="title">Maria bot</h3>
+            </div>
+            <a class="nav-link d-flex align-items-center gap-2" href="/accessChat" style="background-color: #45a049; color: black; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block;">
+                Sign out
+            </a>
+        </div>
+        <div class="chatCompleto">
+
+
+            <div class="chat-container" id="chat">
+                <div id="welcome-message" class="welcome-message" style="color: white;">
+                    <p>Bienvenid@ soy María asistente virtual.</p>
+                    <br /> Estoy aquí para resolver cualquier pregunta sobre las Unidades Tecnológicas de Santander
+                    <br /> Te presento una lista de las preguntas más frecuentes.
+                    <ul>
+                        <li><button
+                                onclick="enviarMensaje('Reestablecimiento contraseña academusoft')">Reestablecimiento
+                                contraseña academusoft</button></li><br />
+                        <li><button onclick="enviarMensaje('correo institucional')"> Correo institucional</button></li>
+                        <br />
+                        <li><button onclick="enviarMensaje('tramite certificados academicos bienvenida')">Trámite de
+                                Certificados Académicos</button></li><br />
+                        <li><button onclick="enviarMensaje('Inscripcion bienvenida')">Inscripción</button></li><br />
+                        <li><button onclick="enviarMensaje('readmision')">Readmisión</button></li><br>
+                        <li><button onclick="enviarMensaje('politica de gratuidad')">Política de gratuidad / matricula
+                                cero</button></li><br>
+                        <li><button onclick="enviarMensaje('Admisiones bienvenida')">Programa académico</button></li>
+                        <br />
+                        <li><button onclick="enviarMensaje('transferencia bienvenida')">Transferencias</button></li>
+                        <br />
+                        <li><button onclick="enviarMensaje('Intercambio academico')">Intercambio academico en la
+                                UTS</button></li><br />
+                        <li><button onclick="enviarMensaje('Requisitos para estudiar UTS')">Requisitos para estudiar en
+                                la UTS</button></li><br />
+                        <li><button
+                                onclick="enviarMensaje('descarga el recibo de la liquidacion de la matricula')">Descarga
+                                el recibo de la liquidacion de la matricula</button></li><br />
+                        <li><button onclick="enviarMensaje('poliza estudiantil')">Poliza estudiantil</button></li><br>
+                        <li><button onclick="enviarMensaje('Bolsa de empleo bienvenida')">Bolsa de empleo</button></li>
+                        <br>
+                        <li><button onclick="enviarMensaje('devolucion')">Devoluciones</button></li><br />
+                        <li><button onclick="enviarMensaje('directorio institucional')">Directorio
+                                institucional</button></li><br />
+                        <li><button onclick="enviarMensaje('formular pqr')">Formular PQR</button></li><br />
+                    </ul>
+                </div>
+                <ul id="messages"></ul>
+
+            </div>
+            <form id="message-form">
+                <input id="m" autocomplete="off" />
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    
+    <!-- Boostratp -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            var socket = io();
+            var welcomeMessageShown = false;
+
+            $('#message-form').submit(function (e) {
+                e.preventDefault();
+
+                if (!welcomeMessageShown) {
+                    $('#welcome-message').fadeOut();
+                    welcomeMessageShown = true;
+                }
+
+                socket.emit('chat message', $('#m').val());
+                $('#m').val('');
+                return false;
+            });
+
+            socket.on('chat message', function (msg) {
+                var messageTypeClass = msg.user === 'Human:' ? 'human-message' : 'bot-message';
+
+                $('#messages').append($('<li>').addClass(messageTypeClass).html(msg.user + ': ' + msg.message));
+
+                // Hacer scroll hacia abajo automáticamente después de enviar o recibir un mensaje
+                scrollSmoothToBottom('#messages');
+            });
+
+            // Función para hacer scroll suave hacia abajo
+            function scrollSmoothToBottom(elementId) {
+                var element = $(elementId);
+                var scrollHeight = element.prop('scrollHeight');
+                var duration = 150; // Duración de la animación en milisegundos
+
+                element.stop().animate({
+                    scrollTop: scrollHeight
+                }, duration, 'swing');
+            }
+
+            // Función para enviar mensaje desde el botón en el .rive
+            window.enviarMensaje = function (mensaje) {
+                if (!welcomeMessageShown) {
+                    $('#welcome-message').fadeOut();
+                    welcomeMessageShown = true;
+                }
+
+                socket.emit('chat message', mensaje);
+                $('#m').val('');
+                return false;
+            };
+        });
+
+    </script>
+</body>
+
+</html>

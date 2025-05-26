@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --wwwutseduco-raleway-regular-15: Raleway;
+  --font-material-icons: "Material Icons";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --wwwutseduco-raleway-regular-15-size: 15px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --wwwutseduco-raleway-regular-131-size: 13.1px;
+
+  /* Colors */
+  --wwwutseduco-nero: #fff;
+  --wwwutseduco-dove-gray: #666;
+  --wwwutseduco-gray: #8f8f8f;
+  --wwwutseduco-gray1: #848484;
+  --wwwutseduco-black-12: rgba(0, 0, 0, 0.12);
+  --wwwutseduco-nero-02: rgba(255, 255, 255, 0);
+  --wwwutseduco-nero-60: rgba(255, 255, 255, 0.6);
+  --wwwutseduco-nero-10: rgba(255, 255, 255, 0.1);
+  --wwwutseduco-mercury: #e5e5e5;
+  --wwwutseduco-athens-gray: #f8f9fa;
+  --wwwutseduco-alabaster: #f8f8f8;
+  --wwwutseduco-seashell: #f1f1f1;
+  --wwwutseduco-gallery: #f0f0f0;
+  --wwwutseduco-mercury1: #eaeaea;
+  --wwwutseduco-key-lime-pie: #c3d730;
+  --wwwutseduco-jelly-bean: #217290;
+  --wwwutseduco-atoll: #0b4a75;
+  --wwwutseduco-sushi: #6dab3c;
+  --wwwutseduco-apple: #66a038;
+  --wwwutseduco-mine-shaft: #333;
+
+  /* Gaps */
+  --gap-1115xl: 1134px;
+  --gap-5xl: 24px;
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-0: 0px;
+  --padding-39xl: 58px;
+  --padding-2xs: 11px;
+  --padding-2xl: 21px;
+  --padding-12xs-5: 0.5px;
+  --padding-sm: 14px;
+  --padding-12xs: 1px;
+  --padding-10xs: 3px;
+  --padding-xs-5: 11.5px;
+  --padding-3xs: 10px;
+  --padding-29xl: 48px;
+  --padding-8xs: 5px;
+  --padding-5xs: 8px;
+  --padding-11xs: 2px;
+  --padding-7xl: 26px;
+  --padding-7xs: 6px;
+  --padding-6xl: 25px;
+
+  /* Border radiuses */
+  --br-lg: 18px;
+  --br-9xs: 4px;
+  --br-8xs: 5px;
+}

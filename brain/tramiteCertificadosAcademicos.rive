@@ -1,0 +1,48 @@
+//Salto de línea
+! local concat = newline
+
+// Cambiar el sinónimo para títulos académicos
+! sub título = titulo
+! sub títulos = titulo
+! sub titulos = titulo
+! sub académico = academico
+! sub académicos = academico
+! sub titulos academicos = titulo academico
+! sub certificados = certificado
+
+// ** Trámite de Certificado académico
+// -----------------------------------
+! sub trámite = tramite
+! sub trámites = tramite
+! sub tramites = tramite
+
+//Cambiar el sinónimos para Certificados académicos
+! sub certificados = certificado
+! sub certificados academicos = certificado academico
+
+
+// ********************************************Bienvenida*******************************************************
+// ****************************************** titulo academico y certificado academico bienvenida *****************************************************
++ [*] tramite certificado academico bienvenida [*]
+- Para saber de Tramite de certificados academicos 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/certificados/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+// ********************************************Bienvenida*******************************************************
+// ******************************************  *****************************************************
+
+// ****************************************** titulo academico y certificado academico bienvenida *****************************************************
++ [*] tramite certificado academico  [*]
+- Para saber de Tramite de certificados academicos 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/certificados/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+// ********************************************Bienvenida*******************************************************
+// ******************************************  *****************************************************
+
+// ****************************************** titulo academico y certificado academico bienvenida *****************************************************
++ [*] tramite certificado academico menu [*]
+- Para saber de Tramite de certificados academicos 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/certificados/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+// ********************************************Bienvenida*******************************************************
+// ******************************************  *****************************************************
+
+// ****************************************** titulo academico y certificado academico bienvenida *****************************************************
++ [*] tramite certificado academico volver [*]
+- Para saber de Tramite de certificados academicos 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/certificados/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>
+// ********************************************Bienvenida*******************************************************
+// ******************************************  *****************************************************
+

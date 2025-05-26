@@ -1,0 +1,24 @@
+! sub inscripciones = inscripcion
+! sub inscripción = inscripcion
+! sub inscripcione = inscripcion
+
+
+// --------------------------------------------------------------------------------------------
+// Inscripciones 
+// --------------------------------------------------------------------------------------------
+
++ [*] inscripcion bienvenida [*]
+- Para saber de Proceso de inscripciones 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='http://academusoft.uts.edu.co/uts/academusoft/academico/inscripcionLinea4/ind_ins_pub_seguro.jsp' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p><button onclick="enviarMensaje('brindar ayuda')"> Menú</button> 
+
++ [*] inscripcion [*]
+- Para saber de Proceso de inscripciones 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='http://academusoft.uts.edu.co/uts/academusoft/academico/inscripcionLinea4/ind_ins_pub_seguro.jsp' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p><button onclick="enviarMensaje('<input> volver')"> volver</button>
+
++ [*] inscripcion volver [*]
+- Para saber de Proceso de inscripciones 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='http://academusoft.uts.edu.co/uts/academusoft/academico/inscripcionLinea4/ind_ins_pub_seguro.jsp' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p><button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
++ [*] inscripcion menu [*]
+- Para saber de Proceso de inscripciones 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='http://academusoft.uts.edu.co/uts/academusoft/academico/inscripcionLinea4/ind_ins_pub_seguro.jsp' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
+// --------------------------------------------------------------------------------------------
+// FIN DE INSCRIPCIONES 
+// --------------------------------------------------------------------------------------------

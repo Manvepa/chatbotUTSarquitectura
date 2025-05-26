@@ -1,0 +1,24 @@
++ [*] politica de gratuidad bienvenida [*]
+- Para conocer los requisitos y lineamiento de la política de gratuidad consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/beneficios/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] politica de gratuidad [*]
+- Para conocer los requisitos y lineamiento de la política de gratuidad consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/beneficios/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] politica de gratuidad menu [*]
+- Para conocer los requisitos y lineamiento de la política de gratuidad consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/beneficios/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] politica de gratuidad volver [*]
+- Para conocer los requisitos y lineamiento de la política de gratuidad consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/beneficios/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>
+
+// *********************** INTERCAMBIOOO ***********************************************************************
++ [*] intercambio academico bienvenida [*]
+- Para conocer los requisitos de los intercambios académicos de la UTS consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/investigaciones/#1646171107951-fbcb7f9d-3bd6' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] intercambio academico [*]
+- Para conocer los requisitos de los intercambios académicos de la UTS consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/investigaciones/#1646171107951-fbcb7f9d-3bd6' target="_blank"> Clic aquí  </a> 👈 <p>{@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] intercambio academico menu [*]
+- Para conocer los requisitos de los intercambios académicos de la UTS consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/investigaciones/#1646171107951-fbcb7f9d-3bd6' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] intercambio academico volver [*]
+- Para conocer los requisitos de los intercambios académicos de la UTS consulte en el siguiente enlace  👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/investigaciones/#1646171107951-fbcb7f9d-3bd6' target="_blank"> Clic aquí  </a> 👈 <p>{@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>

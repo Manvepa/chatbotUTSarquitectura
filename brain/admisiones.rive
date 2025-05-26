@@ -1,0 +1,68 @@
+! sub academicas = academica
+! sub admisiones = admisiones
+! sub admisión = admisiones
+! sub admision = admisiones
+! sub admisione = admisiones
+! sub oferta academica modalidad virtual = admisiones virtual
+! sub oferta academica modalidad presencial = admisiones virtual
+! sub tecnológico = tecnologico
+
+// Sistema de Admisiones ******************************************************************************************
+
++ [*] admisiones bienvenida [*]
+- Quiere saber de Ofertas académicas de:  <ul><br> <li><button onclick="enviarMensaje('admisiones presencial')">Oferta académica modalidad presencial </button></li> <br/> <li><button onclick="enviarMensaje('admisiones virtual')">Oferta académica modalidad virtual</button></li> </ul> <br><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] admisiones [*]
+- Quiere saber de Ofertas académicas de:  <ul><br> <li><button onclick="enviarMensaje('admisiones presencial')">Oferta académica modalidad presencial </button></li> <br/> <li><button onclick="enviarMensaje('admisiones virtual')">Oferta académica modalidad virtual</button></li> </ul> <br><button onclick="enviarMensaje('<input> volver')"> volver</button>
+
++ [*] admisiones volver [*]
+- Quiere saber de Ofertas académicas de:  <ul><br> <li><button onclick="enviarMensaje('admisiones presencial')">Oferta académica modalidad presencial </button></li> <br/> <li><button onclick="enviarMensaje('admisiones virtual')">Oferta académica modalidad virtual</button></li>  <br> <li><button onclick="enviarMensaje('readmision')">Proceso de Readmisión</button></li>  </ul> <br><button onclick="enviarMensaje('<input3> menu')"> volver</button>
+- Quiere saber de Ofertas académicas de:  <ul><br> <li><button onclick="enviarMensaje('admisiones presencial')">Oferta académica modalidad presencial </button></li> <br/> <li><button onclick="enviarMensaje('admisiones virtual')">Oferta académica modalidad virtual</button></li>   </ul> <br><button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
++ [*] admisiones menu [*]
+- Quiere saber de Ofertas académicas de:  <ul><br> <li><button onclick="enviarMensaje('admisiones presencial')">Oferta académica modalidad presencial </button></li> <br/> <li><button onclick="enviarMensaje('admisiones virtual')">Oferta académica modalidad virtual</button></li>  </ul> <br><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
+// Sistema de admisiones  presencial***************************************************************************************
+
+// Inicio de admisiones presencial
++ [*]  admisiones presencial [*]
+- Para saber de Oferta académica modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/oferta-academica-2/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*]  admisiones presencial volver [*]
+- Para saber de Oferta académica modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/oferta-academica-2/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
++ [*]  admisiones presencial menu [*]
+- Para saber de Oferta académica modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/oferta-academica-2/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
+// Fin admisiones presencial ----
+
+// Sistema de admisiones  presencial aspirante***************************************************************************************
+// Inicio de admisiones presencial aspirante
+
+
+// Sistema de admisiones virtual***************************************************************************************
+// Inicio de admisiones virtual
++ [*]  admisiones virtual [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/oferta-academica-2/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*]  admisiones virtual volver [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/oferta-academica-2/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
++ [*]  admisiones virtual menu [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/oferta-academica-2/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú </button>
+
+// Fin admisiones 
+
+! sub readmisiones = readmision
+// ********************************************************************** READMISIONES *******************************************
++ [*]  readmision [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/portal-academico/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*]  readmision volver [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/portal-academico/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> volver</button>
+
++ [*]  readmision menu [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/portal-academico/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú </button>
+
++ [*]  readmision bienvenida [*]
+- Para saber de Oferta académica modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/portal-academico/' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú </button>

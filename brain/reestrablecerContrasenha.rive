@@ -1,0 +1,11 @@
++ [*] reestablecimiento contraseña academusoft bienvenida [*]
+- Para restablecer la contraseña de la plataforma ACADEMUSOFT debe solicitar el restablecimiento al correo peticiones@correo.uts.edu.co, adjuntando en PDF el documento de identidad al 150%.  <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] reestablecimiento contraseña academusoft [*]
+- Para restablecer la contraseña de la plataforma ACADEMUSOFT debe solicitar el restablecimiento al correo peticiones@correo.uts.edu.co, adjuntando en PDF el documento de identidad al 150%.  <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] reestablecimiento contraseña academusoft menu [*]
+- Para restablecer la contraseña de la plataforma ACADEMUSOFT debe solicitar el restablecimiento al correo peticiones@correo.uts.edu.co, adjuntando en PDF el documento de identidad al 150%.  <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] reestablecimiento contraseña academusoft volver [*]
+- Para restablecer la contraseña de la plataforma ACADEMUSOFT debe solicitar el restablecimiento al correo peticiones@correo.uts.edu.co, adjuntando en PDF el documento de identidad al 150%.  <p> {@agregarbasedatos} <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>

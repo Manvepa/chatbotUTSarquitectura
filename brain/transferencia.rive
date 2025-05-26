@@ -1,0 +1,145 @@
+//Salto de línea
+! local concat = newline
+
+// Cambiar el sinónimo para transferencia
+! sub traslado = transferencia
+! sub traspaso = transferencia
+! sub transmisión = transferencia
+! sub transferencias = transferencia
+! sub interno = interna
+
+//Sinónimos para la transferencia interna
+! sub internas = interna
+! sub virtualidad = virtual
+! sub presencialidad = presencial
+! sub modalidades = modalidad
+! sub virtuales = virtual
+! sub externo = externa
+! sub externas = externa 
+
+// ********************************************Bienvenida*******************************************************
+// ****************************************** Transferencia *****************************************************
+// ********************************************Bienvenida*******************************************************
+// El usuario llega a este mensaje si le da click en Transferencia del mensaje de bienvenida del html
++ [*] transferencia bienvenida [*]
+- Quiere saber de transferencia de:<ul> <li><button onclick="enviarMensaje('Transferencia interna modalidad presencial')">Transferencia interna modalidad presencial</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia interna modalidad virtual')">Transferencia interna modalidad virtual</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia externa modalidad virtual')">Transferencia externa modalidad virtual</button> <li> <br> <button onclick="enviarMensaje('Transferencia externa modalidad presencial')">Transferencia externa modalidad presencial</button></li></li></ul> <br><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+// Como viene del html el volver pondrá "Brindar ayuda" para mostrar el menú
+
+// ********************************************Bienvenida*******************************************************
+// ****************************************** Transferencia *****************************************************
+// ********************************************Bienvenida*******************************************************
+// El usuario viene del menú del bot
++ [*] transferencia [*]
+- Quiere saber de transferencia de:<ul> <li><button onclick="enviarMensaje('Transferencia interna modalidad presencial')">Transferencia interna modalidad presencial</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia interna modalidad virtual')">Transferencia interna modalidad virtual</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia externa modalidad virtual')">Transferencia externa modalidad virtual</button> <li> <br> <button onclick="enviarMensaje('Transferencia externa modalidad presencial')">Transferencia externa modalidad presencial</button></li></li></ul> <br><button onclick="enviarMensaje('<input> volver')"> volver</button>
+// Como viene del menú bot se puede volver al menú
+// ***********************************************************************************************************
+
+// *********************************************************************************************************
+// El usuario viene del menú del bot
++ [*] transferencia volver [*]
+- Quiere saber de transferencia de:<ul> <li><button onclick="enviarMensaje('Transferencia interna modalidad presencial')">Transferencia interna modalidad presencial</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia interna modalidad virtual')">Transferencia interna modalidad virtual</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia externa modalidad virtual')">Transferencia externa modalidad virtual</button> <li> <br> <button onclick="enviarMensaje('Transferencia externa modalidad presencial')">Transferencia externa modalidad presencial</button></li></li></ul><br><button onclick="enviarMensaje('<input3> menu')"> volver</button>
+// Como viene del menú bot se puede volver al menú
+// ********************************************VOLVER*******************************************************
+
+// *********************************************************************************************************
+// El usuario viene del menú del bot
++ [*] transferencia menu [*]
+- Quiere saber de transferencia de:<ul> <li><button onclick="enviarMensaje('Transferencia interna modalidad presencial')">Transferencia interna modalidad presencial</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia interna modalidad virtual')">Transferencia interna modalidad virtual</button></li> <br/> <li><button onclick="enviarMensaje('Transferencia externa modalidad virtual')">Transferencia externa modalidad virtual</button> <li> <br> <button onclick="enviarMensaje('Transferencia externa modalidad presencial')">Transferencia externa modalidad presencial</button></li></li></ul> <br><button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+// Como viene del menú bot se puede volver al menú
+// ********************************************Menú*******************************************************
+
+
+
+
+// ********************************************VOLVER*******************************************************
+// *************************** Transferencia interna modalidad presencial a virtual ******************************
+// ********************************************VOLVER*************************************************************
+
+
+// ----------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------
+
+//Sinónimos para la transferencia presencial a virtual
+
+// ***************************************************************************************************************
+// *************************** Transferencia interna modalidad presencial a virtual ******************************
+// ***************************************************************************************************************
+ 
++ [*]  transferencia interna modalidad presencial [*]
+- Para saber de transferencia interna modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/proceso-modalidad-presencial/#1565106315966-a49f222e-db5c' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')">Volver</button>
+// ***************************************************************************************************************
+
+
+// ***************************************************************************************************************
+// *************************** Transferencia interna modalidad presencial a virtual menu ******************************
+// ***************************************************************************************************************
+ 
++ [*]  transferencia interna modalidad presencial menu [*]
+- Para saber de transferencia interna modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/proceso-modalidad-presencial/#1565106315966-a49f222e-db5c' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+// ***************************************************************************************************************
+
+// ***************************************************************************************************************
+// *************************** Transferencia interna modalidad presencial a virtual volver ******************************
+// ***************************************************************************************************************
+ 
+
+// ----------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------
+
+// ***************************************************************************************************************
+// *************************** Transferencia interna modalidad presencial a virtual ******************************
+// ***************************************************************************************************************
++ [*]  transferencia interna modalidad presencial volver [*]
+- Para saber de transferencia interna modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/proceso-modalidad-presencial/#1565106315966-a49f222e-db5c' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input3> menu')">Volver</button>
+
+
+// --------------------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
+
+
+// ***************************************************************************************************************
+// *************************** transferencia interna modalidad virtual ******************************
+// ***************************************************************************************************************
++ [*] transferencia interna modalidad virtual [*]
+- Para saber de Transferencia interna modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.utsvirtual.edu.co/sitio/procesos-virtuales/#1662607249209-697351c2-3e75' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input> volver')">Volver</button>
+
+// ***********************************************************************************************************************************
+
+// ***************************************************************************************************************
+// *************************** transferencia interna modalidad virtual ******************************
+// ***************************************************************************************************************
++ [*] transferencia interna modalidad virtual menu [*]
+- Para saber de Transferencia interna modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.utsvirtual.edu.co/sitio/procesos-virtuales/#1662607249209-697351c2-3e75' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
+// ***********************************************************************************************************************************
+
+// ***************************************************************************************************************
+// *************************** transferencia interna modalidad virtual******************************
+// ***************************************************************************************************************
++ [*] transferencia interna modalidad virtual volver [*]
+- Para saber de Transferencia interna modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.utsvirtual.edu.co/sitio/procesos-virtuales/#1662607249209-697351c2-3e75' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')">Volver</button>
+
+// *********************************************************************************************************************************** transferencia externa modalidad virtual *************************************************
+
++ [*] transferencia externa modalidad virtual [*]
+- Para saber de Transferencia externa modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.utsvirtual.edu.co/sitio/procesos-virtuales/#1662607249209-697351c2-3e75' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input> volver')">Volver</button>
+
++ [*] transferencia externa modalidad virtual menu [*]
+- Para saber de Transferencia externa modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.utsvirtual.edu.co/sitio/procesos-virtuales/#1662607249209-697351c2-3e75' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] transferencia externa modalidad virtual volver [*]
+- Para saber de Transferencia externa modalidad virtual 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.utsvirtual.edu.co/sitio/procesos-virtuales/#1662607249209-697351c2-3e75' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')">Volver</button>
+
+//*********************************************************************************************************************************** 
+
+// *********************************************************************************************************************************** TRANSFERENCIA EXTERNA MODALIDAD PRESENCIAL  *************************************************
+
++ [*] transferencia externa modalidad presencial [*]
+- - Para saber de transferencia externa modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/proceso-modalidad-presencial/#1565106284930-fc78e21c-3880' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input> volver')">Volver</button>
+
++ [*] transferencia externa modalidad presencial volver [*]
+- - Para saber de transferencia externa modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/proceso-modalidad-presencial/#1565106284930-fc78e21c-3880' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')">Volver</button>
+
++ [*] transferencia externa modalidad presencial menu [*]
+- - Para saber de transferencia externa modalidad presencial 📄 ingresa al siguiente link y sigue los pasos 📝: 👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/proceso-modalidad-presencial/#1565106284930-fc78e21c-3880' target="_blank"> Clic aquí  </a> 👈 <br> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+

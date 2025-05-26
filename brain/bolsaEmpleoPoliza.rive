@@ -1,0 +1,30 @@
++ [*] bolsa de empleo bienvenida [*]
+- Para  registrarse en la bolsa de empleo de las UTS, diríjase al siguiente enlace  👉 <a class="enlaceChat" href='https://www.elempleo.com/co/sitio-empresarial/unidades-tecnologicas-santander' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] bolsa de empleo [*]
+- Para  registrarse en la bolsa de empleo de las UTS, diríjase al siguiente enlace  👉 <a class="enlaceChat" href='https://www.elempleo.com/co/sitio-empresarial/unidades-tecnologicas-santander' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] bolsa de empleo menu [*]
+- Para  registrarse en la bolsa de empleo de las UTS, diríjase al siguiente enlace  👉 <a class="enlaceChat" href='https://www.elempleo.com/co/sitio-empresarial/unidades-tecnologicas-santander' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] bolsa de empleo volver [*]
+- Para  registrarse en la bolsa de empleo de las UTS, diríjase al siguiente enlace  👉 <a class="enlaceChat" href='https://www.elempleo.com/co/sitio-empresarial/unidades-tecnologicas-santander' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>
+
+
+// *****************************************************************POLIZA ESTUDIANTIL ************************************
+! sub póliza = poliza
+! sub pólizas = poliza
+! sub polizas = poliza
+
++ [*] poliza estudiantil bienvenida [*]
+- Para conocer de la póliza estudiante y procedimiento en caso de accidentes diríjase al siguiente enlace   👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/poliza-estudiantil/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] poliza estudiantil [*]
+- Para conocer de la póliza estudiante y procedimiento en caso de accidentes diríjase al siguiente enlace   👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/poliza-estudiantil/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p>  <button onclick="enviarMensaje('<input> volver')"> Volver</button>
+
++ [*] poliza estudiantil menu [*]
+- Para conocer de la póliza estudiante y procedimiento en caso de accidentes diríjase al siguiente enlace   👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/poliza-estudiantil/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('brindar ayuda')"> Menú</button>
+
++ [*] poliza estudiantil volver [*]
+- Para conocer de la póliza estudiante y procedimiento en caso de accidentes diríjase al siguiente enlace   👉 <a class="enlaceChat" href='https://www.uts.edu.co/sitio/poliza-estudiantil/' target="_blank"> Clic aquí  </a> 👈 <p> {@agregarbasedatos} <p> <button onclick="enviarMensaje('<input3> menu')"> Volver</button>
+
