@@ -35,9 +35,9 @@ exports.register = async (req, res) => {
             db.query(query, [nombres, apellidos, edad, cedula, hashedPassword, correo, celular])
               .then(() => {
                 // Redirect the user to the chat page after logging in
-                
-                  res.redirect('/dashboard');
-                
+
+                res.redirect('/dashboard');
+
               })
               .catch(err => {
                 if (err) throw err;
@@ -108,6 +108,7 @@ exports.deleteUser = (req, res) => {
 // Login a user
 // Login a user
 exports.login = (req, res) => {
+  console.log('Datos recibidos en /login:', req.body);
   const { correo, password } = req.body;
 
   const query = 'SELECT * FROM usuariochat WHERE correo = $1';
@@ -116,26 +117,29 @@ exports.login = (req, res) => {
     if (result.rows.length > 0) {
       const user = result.rows[0];
 
-      // Compare the provided password with the stored hash
       bcrypt.compare(password, user.password, (err, match) => {
         if (err) {
-          res.status(500).json({ error: 'Internal server error' });
-        } else if (match) {
-          // Utiliza la secretKey exportada
+          return res.status(500).json({ error: 'Internal server error' });
+        } 
+        if (match) {
           const token = jwt.sign({ userId: user.idChatUser, correo: user.correo, userType: 'user' }, exports.secretKey, { expiresIn: '1h' });
 
-          // Guarda el token en una cookie
-          res.cookie('jwt', token, { httpOnly: true, maxAge: 3600000 }); // maxAge en milisegundos (1 hora)
+          res.cookie('jwt', token, {
+            httpOnly: true,
+            maxAge: 3600000,
+          });
 
-          // Redirige al usuario a la página de chat
-          // res.redirect('/chat');
-          res.status(200).json({ success: true });
+          return res.status(200).json({
+            success: true,
+            token: token,
+          });
+
         } else {
-          res.status(401).json({ error: 'Invalid email or password' });
+          return res.status(401).json({ error: 'Invalid email or password' });
         }
       });
     } else {
-      res.status(401).json({ error: 'Invalid email or password' });
+      return res.status(401).json({ error: 'Invalid email or password' });
     }
   });
 };
